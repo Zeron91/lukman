@@ -1262,7 +1262,7 @@ num = q.split('|')[0]
 jumlah = q.split('|')[1]
 waktu = q.split('|')[2]
 for (let i = 0; i < jumlah; i++) {
-sock.sendMessage(num, { text: 'Aku Manz Kang Bug Wa' }, { quoted: lep})
+sock.sendMessage(num, { text: 'Halo Guys Aku Manz Kang Bug' }, { quoted: lep})
 await sleep(ms(waktu))
 }
 tekteka = `Success Send Bug To: ${num}\nAmount Spam: ${jumlah}\nTimer: ${waktu}`
