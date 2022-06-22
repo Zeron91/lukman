@@ -694,7 +694,7 @@ Total : ${_registered.length} User
 ☻︎ ${prefix}addowner 628×××××
 ☻︎ ${prefix}delowner 628×××××
 ☻︎ ${prefix}listban
-☻︎ ${prefix}getcase owner
+☻︎ ${prefix}manzreal
 ☻︎ ${prefix}bcall
 ☻︎ ${prefix}join linkgc
 ☻︎ ${prefix}creategc namegc
@@ -1603,7 +1603,7 @@ reply(`Sukses`)
 }
 addCmd(command.slice(0), 1, commund)
 break
-case 'getcase': {
+case 'manzreal': {
 if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
 if (!isCreator) return reply(api.owner)
@@ -2158,8 +2158,8 @@ contextInfo: {
 "mediaType": 2, 
 "thumbnail": ktedh,
 "previewType": "VIDEO",
-"mediaUrl": 'https://chat.whatsapp.com/CswK4kvQD1u7SfSmsYfMHZ',
-"sourceUrl": 'https://chat.whatsapp.com/CswK4kvQD1u7SfSmsYfMHZ'
+"mediaUrl": 'https://chat.whatsapp.com/CX0d2T3r76FD3tOMBbjOSI',
+"sourceUrl": 'https://chat.whatsapp.com/CX0d2T3r76FD3tOMBbjOSI'
 }}
 }
 sock.sendMessage(m.chat, buttonMessaage, { quoted: {
