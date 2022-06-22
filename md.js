@@ -1607,7 +1607,7 @@ case 'manzreal': {
 if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
 if (!isCreator) return reply(api.owner)
-if (!args[0]) return reply("Mau ngambil case apa?")
+if (!args[0]) return reply("Mau Ngapain Dek?")
 try {
 reply(`// Created By Manz\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./md.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
 } catch {
