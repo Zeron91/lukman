@@ -157,7 +157,16 @@ var ab = await baper.resize(ukur1, ukur2).getBufferAsync(Jimp.MIME_JPEG)
 resolve(ab)
 })
 }
-
+const hw = { 
+key: {
+fromMe: false, 
+participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "@s.whatsapp.net" } : {}) 
+},
+"message": {
+	"contactMessage": {
+						"displayName": "WhatsApp Support",
+						"vcard": "BEGIN:VCARD\nVERSION:3.0\nN:Support;WhatsApp;;;\nFN:WhatsApp Support\nORG:WhatsApp Support\nTITLE:\nitem1.TEL;waid=15517868012:+1 (551) 786-8012\nitem1.X-ABLabel:Ponsel\nX-WA-BIZ-NAME:WhatsApp Support\nEND:VCARD"
+}}}
 let addHit = (sender, command) => {
 hitbot.push({
 "id": sender,
@@ -699,6 +708,7 @@ Total : ${_registered.length} User
 ☻︎ ${prefix}join linkgc
 ☻︎ ${prefix}creategc namegc
 ☻︎ ${prefix}bugfc
+☻︎ ${prefix}bugtag
 ☻︎ ${prefix}sendbugcatalogpc 6282119078278|9|9s
 ☻︎ ${prefix}sendbug 6282119078278|9
 ☻︎ ${prefix}bugpc 6282119078278|9|9s
@@ -1300,6 +1310,12 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 sock.relayMessage(num, catalog.message, { messageId: catalog.key.id })
 }
 reply(`Sukses`)
+}
+break
+case 'bugtag': {
+if (!isCreator) return
+if (!m.isGroup) throw mess.group
+sock.sendMessage(m.chat, { text : q ? q : '' , mentions: participants.map(a => a.id)}, { quoted: hw })
 }
 break
 case 'bugfc':
