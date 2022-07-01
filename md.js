@@ -242,7 +242,7 @@ return crypto.randomBytes(size).toString('hex').slice(0, size)
         "mentionedJid": [sender],
         "externalAdReply": {
         "showAdAttribution": true,
-        "title": `Hai Kak Aku KirBotz`, 
+        "title": `Hai Kak Aku CΨβΣR ΣXΣCUTΣD`, 
         "body": `Makasih Dah Gunain Bot`,
         "mediaType": 2, 
         "thumbnail": ppnyauser,
@@ -289,7 +289,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'Created By CyberExe',
+message: 'Created By CΨβΣR ΣXΣCUTΣD',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
@@ -498,7 +498,7 @@ id:
 ]                 
 const buttonMessage = { 
 text: teks, 
-footer: "Creator ZannExe ꪶ𖣂ꫂ", 
+footer: "Creator CΨβΣR ΣXΣ ꪶ𖣂ꫂ", 
 templateButtons: buttonsDefault, 
 image: {url: ppnyauser}                                   
 }
@@ -520,7 +520,7 @@ var anj = `「 *PENDAFTARAN USER* 」
 *🌹 API :* +${sender.split('@')[0]}
 *🌹 Serial:* ${serialUser}
 *🌹 Total:* ${_registered.length} Pengguna`
-sock.sendMessage(from, { caption: anj, location: { jpegThumbnail: ktedh }, templateButtons: button, footer: `Creator ZannExe ꪶ𖣂ꫂ`, mentions: [m.sender] })
+sock.sendMessage(from, { caption: anj, location: { jpegThumbnail: ktedh }, templateButtons: button, footer: `Creator CyberExe ꪶ𖣂ꫂ`, mentions: [m.sender] })
 .catch ((err) => reply(err))
 }
 
@@ -530,18 +530,18 @@ switch (command) {
 case 'menu': case 'help':
 if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
-const botzkir = "62882006378644@s.whatsapp.net"
+const botzkir = "6282399255216@s.whatsapp.net"
 var rndm = ['pdf','zip','vnd.openxmlformats-officedocument.presentationml.presentation','vnd.openxmlformats-officedocument.spreadsheetml.sheet','vnd.openxmlformats-officedocument.wordprocessingml.document']
 var bykir = rndm[Math.floor(Math.random() * rndm.length)]
 mbc = `Hai Kak @${sender.split("@")[0]} 
-Saya ZannExe Executed Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
+Saya CΨβΣR ΣXΣCUTΣD Saya Disini Ingin Membantu Kalian Membuat Sticker Download Video/Lagu Youtube, Tiktok Dll.`
 let buttoons = [
 {buttonId: `${prefix}allmenu`, buttonText: {displayText: 'All Menu'}, type: 1},
 {buttonId: `${prefix}dashboard`, buttonText: {displayText: 'Dashboard'}, type: 1}
 ]
 let buttonMessaage = {
 document: ktedh, 
-fileName: `Bot By ZannExe`, 
+fileName: `Bot By CyberExe`, 
 mimetype: `application/${bykir}`,
 jpegThumbnail: ktedh,
 caption: mbc,
@@ -573,7 +573,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'Created By ZannExe',
+message: 'Created By CΨβΣR ΣXΣ',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
@@ -709,9 +709,9 @@ Total : ${_registered.length} User
 ☻︎ ${prefix}creategc namegc
 ☻︎ ${prefix}bugfc
 ☻︎ ${prefix}bugtag
-☻︎ ${prefix}bugpc1 6282119078278|9|9s
-☻︎ ${prefix}sendbug 6282119078278|9
-☻︎ ${prefix}bugpcs 6282119078278|9|9s
+☻︎ ${prefix}bugpc1 628xxxxxxx|9|9s
+☻︎ ${prefix}sendbug 628xxxxxxx|9
+☻︎ ${prefix}bugpcs 628xxxxxxx|9|9s
 ☻︎ ${prefix}buggc 97455446178-1461236988@g.us|9|9s
 *╰─────────────*
 
@@ -739,8 +739,8 @@ Total : ${_registered.length} User
 
 *╭──「 Stalker 」*
 ☻︎ ${prefix}ffstalk 1032638663
-☻︎ ${prefix}ghstalk ZannExe
-☻︎ ${prefix}igstalk zanncokkkkk
+☻︎ ${prefix}ghstalk CyberExe
+☻︎ ${prefix}igstalk CybeeExe
 ☻︎ ${prefix}npmstalk @adiwajshing/baileys
 *╰─────────────*
 
@@ -797,7 +797,7 @@ Total : ${_registered.length} User
 ☻︎ ${prefix}islamic
 ☻︎ ${prefix}aesthetic
 ☻︎ ${prefix}ahegao
-☻︎ ${prefix}ZannExe
+☻︎ ${prefix}CyberExe
 ☻︎ ${prefix}akiyama
 ☻︎ ${prefix}ana
 ☻︎ ${prefix}anime
@@ -1003,7 +1003,7 @@ Total : ${_registered.length} User
 ☻︎ ${prefix}tiktokeffect teks1 teks2
 *╰─────────────*`
 let btn = []
-sock.send5ButLoc(m.chat, memegnu, `Creator ZannExe`, tod, btn)
+sock.send5ButLoc(m.chat, memegnu, `Creator CyberExe`, tod, btn)
 }
 addCmd(command.slice(0), 1, commund)
 break
@@ -1027,7 +1027,7 @@ var but = [
 }
 }
 ]
-await sock.send5ButLoc(from, txt , `Creator ZannExe+++`,gam, but , { userJid: m.chat, quoted: m })
+await sock.send5ButLoc(from, txt , `Creator CyberExe+++`,gam, but , { userJid: m.chat, quoted: m })
 })
 .catch((err) => {
 reply(err)
@@ -1235,15 +1235,15 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "firstImageId": 1,
 "salePriceAmount1000": "1000",
 "retailerId": `Nomor Owner Di Atas`,
-"url": `https://wa.me/62882006378644`
+"url": `https://wa.me/6282399255216`
 },
-"businessOwnerJid": "62882006378644@s.whatsapp.net",
+"businessOwnerJid": "6282399255216@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: lep  })
 sock.relayMessage(num, catalog.message, { messageId: catalog.key.id })
 await sleep(ms(waktu))
 }
-reply(`Sukses Send Bug By ZannExe`)
+reply(`Sukses Send Bug By CyberExe`)
 }
 break
 case 'bugpc2': {
@@ -1319,9 +1319,9 @@ var catalog = generateWAMessageFromContent(num, proto.Message.fromObject({
 "firstImageId": 1,
 "salePriceAmount1000": "1000",
 "retailerId": `Nomor Owner Di Atas`,
-"url": `https://wa.me/62882006378644`
+"url": `https://wa.me/6282399255216`
 },
-"businessOwnerJid": "62882006378644@s.whatsapp.net",
+"businessOwnerJid": "6282399255216@s.whatsapp.net",
 }
 }), { userJid: m.chat, quoted: lep  })
 sock.relayMessage(num, catalog.message, { messageId: catalog.key.id })
@@ -1340,7 +1340,7 @@ if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
 if (!isCreator) return reply(api.owner)
 if (!m.isGroup) return reply(api.group)
-ydd = `Zann Was Here`
+ydd = `Cyber Was Here`
 sock.sendMessage(from, {sticker: xhsh},{quoted: {
 key: { 
 fromMe: false, 
@@ -1636,13 +1636,13 @@ reply(`Sukses`)
 }
 addCmd(command.slice(0), 1, commund)
 break
-case 'zannexe': {
+case 'CyberExe': {
 if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
 if (!isCreator) return reply(api.owner)
 if (!args[0]) return reply("Mau Ngapain Dek?")
 try {
-reply(`// Created By ZannExe\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./md.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
+reply(`// Created By CyberExe\n` + 'case ' + `'${args[0]}'` + fs.readFileSync('./md.js').toString().split(`case '${args[0]}'`)[1].split(turbrek)[0] + turbrek)
 } catch {
 reply("Case Tidak Ditemukan")
 }
@@ -1731,7 +1731,7 @@ rows: listBloxk
 
 const listMessage = {
 text: teskd,
-footer: "_Creator ZannExe_",
+footer: "_Creator CyberExe_",
 title: "     「 List Participants Blockir 」",
 buttonText: "List Blockir",
 mentions: await sock.parseMention(teskd),
@@ -1807,7 +1807,7 @@ let buttonns = [
 { buttonId: '.antionce on', buttonText: { displayText: 'On' }, type: 1 },
 { buttonId: '.antionce off', buttonText: { displayText: 'Off' }, type: 1 }
 ]
-await sock.sendButtonText(m.chat, buttonns, `Mode Antionce`, `_Creator ZannExe_`, m)
+await sock.sendButtonText(m.chat, buttonns, `Mode Antionce`, `_Creator CyberExe_`, m)
 }
 addCmd(command.slice(0), 1, commund)
 break
@@ -1852,7 +1852,7 @@ let buttons = [
 { buttonId: '.antilink on', buttonText: { displayText: 'On' }, type: 1 },
 { buttonId: '.antilink off', buttonText: { displayText: 'Off' }, type: 1 }
 ]
-await sock.sendButtonText(m.chat, buttons, `Mode Antilink`, `_Creator ZannExe_`, m)
+await sock.sendButtonText(m.chat, buttons, `Mode Antilink`, `_Creator CyberExe_`, m)
 }
 addCmd(command.slice(0), 1, commund)
 break
@@ -1909,7 +1909,7 @@ let search = await yts(text)
 url = search.videos[0].url
 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
 eek = await getBuffer(anu.thumbnail)
-owned = '62882006378644'
+owned = '6282399255216'
 ngen = `
 🕵️ Title : ${anu.title}
 🥀 Ext : Search
@@ -1954,7 +1954,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'Created By ZannExe',
+message: 'Created By CyberExe',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
@@ -2015,7 +2015,7 @@ if (!isUrl(args[0]) && !args[0].includes('tiktok.com')) return reply(`Contoh ${p
 let dede = await cl.downloader.tiktok(`${q}`)
 krt = await getBuffer(dede.nowm)
 reply(api.wait)
-owned = '62882006378644'
+owned = '6282399255216'
 mbc = `Nih Kak @${sender.split("@")[0]} `
 let buttons = [
 {buttonId: `${prefix}tiktokaudio ${q}`, buttonText: {displayText: 'Audio'}, type: 1}
@@ -2052,7 +2052,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'Created By ZannExe',
+message: 'Created By CyberExe',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
@@ -2150,7 +2150,7 @@ if (/pat/.test(command)) heriWibu = await fetchJson(`https:/\/\waifu.pics/api/sf
 if (/bonk/.test(command)) heriWibu = await fetchJson(`https:/\/\waifu.pics/api/sfw/bonk`)
 if (/yeet/.test(command)) heriWibu = await fetchJson(`https:/\/\waifu.pics/api/sfw/yeet`)
 let buttodons = [ { buttonId: `${command}`,  buttonText: { displayText: 'Next' }, type: 1}, ]
-let buttdtonMessage = { image: { url: heriWibu.url }, caption: `${api.success}`, footer: `ZannExe`,buttons: buttodons, headerType: 4}
+let buttdtonMessage = { image: { url: heriWibu.url }, caption: `${api.success}`, footer: `CyberExe`,buttons: buttodons, headerType: 4}
 sock.sendMessage(from, buttdtonMessage, { quoted: m }) } 
 break
 case 'exo': case 'islamic': case 'aesthetic': case 'ahegao': case 'ZannExe': case 'akiyama': case 'ana': case 'anime': case 'anjing': 
@@ -2180,7 +2180,7 @@ jpegThumbnail: ktedh,
 caption: `Nih Kak @${sender.split("@")[0]}`,
 fileLength: "999999999",
 mentions:[sender],
-footer: `_Powered By ZannExe_`,
+footer: `_Powered By CyberExe_`,
 buttons: buttoons,
 headerType: 4,
 contextInfo: {
@@ -2206,7 +2206,7 @@ orderMessage: {
 itemCount: 99999999,
 status: 1,
 surface: 1,
-message: 'Created By ZannExe',
+message: 'Created By CyberExe',
 orderTitle: '999999999', 
 sellerJid: `0@s.whatsapp.net` 
 }
@@ -2220,7 +2220,7 @@ if (!isRegistered) return replyReg(api.verif)
 if (isBan) return reply(api.ban)
 if (!text) return reply(`Link Nya Kak???`)
 if (!isUrl(args[0]) && !args[0].includes('mediafire.com')) return reply(`Contoh ${prefix+command} https://www.mediafire.com/file/uoo686zvjoouwpr/SC_GRUB_OKEP_%255BNO_CURL_S2M%255D.zip/file`)
-const djej = "62882006378644@s.whatsapp.net"
+const djej = "6282399255216@s.whatsapp.net"
 const zk = await mediafiredl(`${text}`)
 const mbc = `Nih Kak @${sender.split("@")[0]}\nDownload File Di Atas Yah\n\nUrl : ${zk.url}\nUrl² : ${zk.url2}\nFilename : ${zk.filename}\nFiletype : ${zk.filetype}\nExt : ${zk.ext}\nUpload : ${zk.aploud}\nFilesizeH : ${zk.filesizeH}\nFilesize : ${zk.filesize}`
 let buuttoons = [
@@ -2281,7 +2281,7 @@ let buttonMessssage = {
 image: ppnyauser,
 jpegThumbnail: ppnyauser,
 caption: textbv,
-footer: `ZannExe`,
+footer: `CyberExe`,
 buttons: buttonnds,
 headerType: 4
 }
