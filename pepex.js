@@ -21,7 +21,7 @@ async function lordKirStart() {
     const sock = sockConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['KirBotz Multi-Device','Safari','1.0.0'],
+        browser: ['CyberExe Multi-Device','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -38,9 +38,7 @@ whitespaceBreak: false
 
 console.log(color('[ STATUS ]', 'cyan'), color('Bot Online', 'yellow'))
 console.log(color('[ INFO ]', 'cyan'), color(`Informasi Owner`, 'yellow'))
-console.log(color('Instagram :', 'cyan'), color(`@kirbotz`, 'yellow'))
-console.log(color('Github :', 'cyan'), color(`KirBotz`, 'yellow'))
-console.log(color('Wangsap :', 'cyan'), color(`087705048235`, 'yellow'))
+console.log(color('Wangsap :', 'cyan'), color(` 6283847178421`, 'yellow'))
 
 sock.ws.on('CB:Blocklist', json => {
 		if (blocked.length > 2) return
@@ -59,7 +57,7 @@ sock.ws.on('CB:call', async (json) => {
     }
     })
 
-sock.browserDescription = ["KirBotz Multi-Device", "Safari", "1.0.0"];
+sock.browserDescription = ["CyberExe Multi-Device", "Safari", "1.0.0"];
 
 sock.ev.on('messages.upsert', async chatUpdate => {
 try {

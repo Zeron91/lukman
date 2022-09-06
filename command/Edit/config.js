@@ -6,7 +6,7 @@ global.namabotnya = 'Cyber Is Real'
 global.namaownernya = 'Cyber Executed'
 global.packname = '\n\n\n\n\n\n\n\n\n\n© Cyber||+62🇲🇨\nI`m From Indonesia\n\n\n\n\n\n\n\n\n\n'
 global.author = '\n\n\n\n\n\n\n\n\n\nWa : 0823-9925-5216\nYT : Cyber S-C-D-B\n\n\n\n\n\n\n\n\n\n'
-global.sessionName = 'kirbotz'
+global.sessionName = 'CyberExe'
 global.lolkey = 'Atakbotz'
 global.dapkey = 'Kirbotz123'
 global.kirkey = 'KirBotz'
@@ -17,7 +17,7 @@ global.website = 'https://bit.ly/3yk3gOo'
 global.github = 'https://bit.ly/3FqVBj8'
 global.noown = 'https://wa.me/6282399255216'
 global.region = 'I`m From Indonesia'
-global.prefa = ['','!','.','#','-','•']
+global.prefa = ['','!','.','#','-','�?']
 global.api = 
 {
     success: '```Success✅```',
